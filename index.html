@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO & Meta Tags -->
+    <title>Personal Trainer Premium </title>
+    <meta
+      name="description"
+      content="Transforme seu corpo em até 90 dias com acompanhamento profissional. Pare de perder tempo com treinos que não funcionam e alcance resultados reais."
+    />
+    <meta
+      name="keywords"
+      content="personal trainer, fitness, hipertrofia, emagrecimento, consultoria online"
+    />
+
+    <!-- Open Graph (Redes Sociais) -->
+    <meta
+      property="og:title"
+      content="Personal Trainer Premium | Transformação em 90 dias"
+    />
+    <meta
+      property="og:description"
+      content="Pare de perder tempo com treinos que não funcionam e alcance resultados reais."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Preconnect para otimização de carregamento (Performance) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/img/iconKaila.png" />
+  </head>
+  <body>
+    <!-- Header / Navbar (Acessibilidade & UX Aprimorados) -->
+    <header id="header" class="header">
+      <div class="container header-container">
+        <a href="#hero" class="logo" aria-label="Página inicial">
+          <span class="logo-icon" aria-hidden="true"
+            ><i class="fa-solid fa-dumbbell"></i
+          ></span>
+          <span class="logo-text">Kayla <strong>Itsines</strong></span>
+        </a>
+
+        <!-- Botão Mobile Toggle -->
+        <button
+          class="mobile-menu-toggle"
+          aria-label="Abrir menu principal"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <!-- Navegação Principal -->
+        <nav id="main-nav" class="nav-menu" aria-label="Navegação principal">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#hero" class="nav-link">Início</a>
+            </li>
+            <li class="nav-item">
+              <a href="#autoridade" class="nav-link">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+              <a href="#metodo" class="nav-link">Método</a>
+            </li>
+            <li class="nav-item">
+              <a href="#prova-social" class="nav-link">Resultados</a>
+            </li>
+            <li class="nav-item">
+              <a href="#faq" class="nav-link">Dúvidas</a>
+            </li>
+            <!-- CTA no menu mobile -->
+            <li class="nav-item mobile-only-item">
+              <a href="#contato" class="btn btn-primary btn-sm nav-cta-mobile"
+                >Começar Agora</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#contato" class="btn btn-primary btn-sm nav-btn ripple"
+          >Quero começar</a
+        >
+      </div>
+    </header>
+
+    <!-- 1. HERO -->
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+          <div class="hero-content reveal">
+            <div class="badge" aria-label="Estratégia Comprovada">
+              🔥 Estratégia Comprovada
+            </div>
+            <h2 class="hero-title">
+              Transforme seu corpo em até 90 dias
+            </h2>
+            <p class="hero-subtitle">
+              Pare de perder tempo com treinos que não funcionam. Seu resultado
+              depende de estratégia, não de sorte. Você só precisa do plano
+              certo.
+            </p>
+
+            <ul class="hero-bullets">
+              <li>
+                <i class="fa-solid fa-check-circle" aria-hidden="true"></i>
+                Treino 100% personalizado
+              </li>
+              <li>
+                <i class="fa-solid fa-check-circle" aria-hidden="true"></i>
+                Resultados reais e comprovados
+              </li>
+              <li>
+                <i class="fa-solid fa-check-circle" aria-hidden="true"></i>
+                Suporte direto e exclusivo
+              </li>
+            </ul>
+
+            <div class="hero-ctas">
+              <a href="#contato" class="btn btn-primary btn-large ripple"
+                >Quero começar agora
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+              ></a>
+              <a
+                href="https://wa.me/5511999999999"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-secondary btn-large ripple"
+                ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Falar
+                no WhatsApp</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. QUEBRA DE PADRÃO (PROBLEMA) -->
+      <section id="problema" class="problema section-padding bg-dark">
+        <div class="container text-center">
+          <h2 class="section-title reveal">
+            Se você já tentou treinar sozinho e não teve resultado...
+          </h2>
+          <p class="section-description reveal">
+            O problema não é sua genética, é a falta da metodologia correta.
+            Identifique o que está te travando:
+          </p>
+
+          <div class="grid-3 mt-5">
+            <div class="card-problema reveal reveal-delay-1">
+              <div class="icon-problema" aria-hidden="true">
+                <i class="fa-solid fa-battery-quarter"></i>
+              </div>
+              <h3>Falta de Disciplina</h3>
+              <p>
+                Você começa motivado, mas desiste em poucas semKaylas por falta de
+                uma rotina adaptável e realista.
+              </p>
+            </div>
+            <div class="card-problema reveal reveal-delay-2">
+              <div class="icon-problema" aria-hidden="true">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </div>
+              <h3>Falta de Orientação</h3>
+              <p>
+                Fazendo treinos genéricos da internet que não respeitam sua
+                individualidade biológica.
+              </p>
+            </div>
+            <div class="card-problema reveal reveal-delay-3">
+              <div class="icon-problema" aria-hidden="true">
+                <i class="fa-solid fa-stopwatch"></i>
+              </div>
+              <h3>Resultados Lentos</h3>
+              <p>
+                Passa meses na academia e não vê mudança no espelho, gerando
+                frustração profunda.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. APRESENTAÇÃO (AUTORIDADE) -->
+      <section id="autoridade" class="autoridade section-padding">
+        <div class="container grid-2 align-center">
+          <div class="autoridade-img reveal">
+            <!-- Foto profissional -->
+            <img
+              src="assets/img/persona.jpg"
+              alt="Foto profissional do treinador"
+              style="width: 100%; height: 500px; object-fit: cover; border-radius: 20px;"
+            />
+            <div class="experience-badge">
+              <span class="number">+10</span>
+              <span class="text">Anos de<br />Experiência</span>
+            </div>
+          </div>
+          <div class="autoridade-content reveal reveal-delay-2">
+            <span class="subtitle-highlight">O Especialista</span>
+            <h2 class="section-title text-left">
+              Mais do que treino, uma transformação de verdade
+            </h2>
+            <p>
+              Sou especialista em hipertrofia e emagrecimento avançado. Minha
+              missão não é apenas passar exercícios, mas construir o caminho
+              exato para a sua transformação física e mental.
+            </p>
+
+            <div class="stats-grid">
+              <div class="stat-item">
+                <i class="fa-solid fa-users" aria-hidden="true"></i>
+                <h4>+5.000</h4>
+                <p>Alunos Transformados</p>
+              </div>
+              <div class="stat-item">
+                <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+                <h4>5</h4>
+                <p>Certificações Internacionais</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. TRANSFORMAÇÃO (ANTES X DEPOIS) -->
+      <section id="transformacao" class="transformacao section-padding bg-dark">
+        <div class="container text-center">
+          <h2 class="section-title reveal">Não é só estética, é autoestima</h2>
+          <p class="section-description reveal">
+            Veja a evolução de quem decidiu dar o primeiro passo e seguir o
+            método à risca.
+          </p>
+
+          <div class="grid-2 mt-5">
+            <div class="transformation-card reveal reveal-delay-1">
+              <div
+                class="ba-image"
+                role="img"
+                aria-label="Foto de antes e depois do aluno Marcos"
+              >
+                <div class="before" style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent), url('assets/img/menantis.jpg') center/cover;">Antes</div>
+                <div class="after" style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent), url('assets/img/mendepois.jpg') center/cover;">Depois</div>
+              </div>
+              <p class="ba-caption">
+                <strong>Marcos T.</strong> - Menos 15kg em 4 meses
+              </p>
+            </div>
+            <div class="transformation-card reveal reveal-delay-2">
+              <div
+                class="ba-image"
+                role="img"
+                aria-label="Foto de antes e depois da aluna JuliKayla"
+              >
+                <div class="before" style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent), url('assets/img/womanantis.jpg') center/cover;">Antes</div>
+                <div class="after" style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent), url('assets/img/womandepois.jpg') center/cover;">Depois</div>
+              </div>
+              <p class="ba-caption">
+                <strong>JuliKayla F.</strong> - Definição muscular em 90 dias
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. MÉTODO & 7. BENEFÍCIOS -->
+      <section id="metodo" class="metodo section-padding bg-dark">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="section-title reveal">Como funciona o Método?</h2>
+            <p class="section-description reveal">
+              Um processo inteligente, desenhado para extrair o seu máximo com o
+              menor desgaste.
+            </p>
+          </div>
+
+          <div class="timeline mt-5">
+            <div class="timeline-item reveal reveal-delay-1">
+              <div class="timeline-icon" aria-hidden="true">
+                <i class="fa-solid fa-clipboard-list"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>1. Avaliação Profunda</h3>
+                <p>
+                  Análise completa do seu biotipo, rotina, restrições e
+                  objetivos para desenhar o ponto de partida ideal.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item reveal reveal-delay-2">
+              <div class="timeline-icon" aria-hidden="true">
+                <i class="fa-solid fa-pen-ruler"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>2. Planejamento Estratégico</h3>
+                <p>
+                  Criação do seu protocolo exclusivo de treinos, otimizando seu
+                  tempo para resultados rápidos.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item reveal reveal-delay-3">
+              <div class="timeline-icon" aria-hidden="true">
+                <i class="fa-solid fa-dumbbell"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>3. Execução Guiada</h3>
+                <p>
+                  Acesso a vídeos explicativos de cada movimento. Você saberá
+                  exatamente o que fazer e como fazer.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item reveal reveal-delay-4">
+              <div class="timeline-icon" aria-hidden="true">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>4. Acompanhamento Contínuo</h3>
+                <p>
+                  Ajustes semKaylais baseados no seu feedback e evolução. O plano
+                  evolui junto com você.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="beneficios-grid mt-5">
+            <div class="beneficio-item reveal reveal-delay-1">
+              <i class="fa-solid fa-bullseye" aria-hidden="true"></i>
+              <span>Treino Personalizado</span>
+            </div>
+            <div class="beneficio-item reveal reveal-delay-2">
+              <i
+                class="fa-solid fa-mobile-screen-button"
+                aria-hidden="true"
+              ></i>
+              <span>App Exclusivo</span>
+            </div>
+            <div class="beneficio-item reveal reveal-delay-3">
+              <i class="fa-solid fa-comments" aria-hidden="true"></i>
+              <span>Suporte WhatsApp</span>
+            </div>
+            <div class="beneficio-item reveal reveal-delay-4">
+              <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i>
+              <span>Resultados Mensuráveis</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 12. URGÊNCIA -->
+      <section class="urgency-banner bg-accent text-dark text-center">
+        <div class="container" role="alert">
+          <h3>
+            <i class="fa-solid fa-clock" aria-hidden="true"></i> Atenção: Apenas
+            <strong>5 vagas</strong> restantes para mentoria este mês!
+          </h3>
+        </div>
+      </section>
+
+      <!-- 5. PROVA SOCIAL -->
+      <section id="prova-social" class="prova-social section-padding">
+        <div class="container text-center">
+          <h2 class="section-title reveal">O que dizem os alunos</h2>
+          <div class="grid-3 mt-5">
+            <div class="testimonial-card glass reveal reveal-delay-1">
+              <div class="stars" aria-label="Avaliação de 5 estrelas">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p>
+                "Eu já tinha desistido de tentar emagrecer. Com esse
+                acompanhamento, não só perdi peso, mas ganhei uma disposição que
+                não tinha há anos."
+              </p>
+              <div class="author">
+                <div class="author-avatar" aria-hidden="true">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="author-info">
+                  <strong>Rodrigo Silva</strong>
+                  <span>Empresário</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card glass reveal reveal-delay-2">
+              <div class="stars" aria-label="Avaliação de 5 estrelas">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p>
+                "O diferencial é o suporte. Qualquer dúvida sobre o treino ou
+                alimentação, tenho resposta rápida. Finalmente um treino que
+                funciona para minha rotina."
+              </p>
+              <div class="author">
+                <div class="author-avatar" aria-hidden="true">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="author-info">
+                  <strong>Kayla Paula</strong>
+                  <span>Médica</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card glass reveal reveal-delay-3">
+              <div class="stars" aria-label="Avaliação de 5 estrelas">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p>
+                "Em 3 meses tive mais resultado do que em 2 anos treinando
+                sozinho. A metodologia é incrível e o acompanhamento é
+                impecável."
+              </p>
+              <div class="author">
+                <div class="author-avatar" aria-hidden="true">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="author-info">
+                  <strong>Carlos Eduardo</strong>
+                  <span>Advogado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9. FAQ -->
+      <section id="faq" class="faq section-padding bg-dark">
+        <div class="container">
+          <h2 class="section-title text-center reveal">Dúvidas Frequentes</h2>
+          <div class="accordion mt-5 reveal reveal-delay-1">
+            <div class="accordion-item">
+              <button
+                class="accordion-header"
+                aria-expanded="false"
+                aria-controls="faq1"
+              >
+                <h4>Não tenho muito tempo para treinar. Isso é para mim?</h4>
+                <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              </button>
+              <div id="faq1" class="accordion-body" role="region">
+                <p>
+                  Sim! Os treinos são montados de acordo com a sua
+                  disponibilidade. Se você tem apenas 30 minutos por dia,
+                  faremos o melhor treino possível para esse tempo. Consistência
+                  é melhor que perfeição.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button
+                class="accordion-header"
+                aria-expanded="false"
+                aria-controls="faq2"
+              >
+                <h4>Já tentei antes e não consegui. O que muda agora?</h4>
+                <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              </button>
+              <div id="faq2" class="accordion-body" role="region">
+                <p>
+                  A diferença agora é o direcionamento e o suporte. Você não
+                  estará tentando adivinhar o que funciona. Terá um especialista
+                  guiando cada passo e cobrando seus resultados.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button
+                class="accordion-header"
+                aria-expanded="false"
+                aria-controls="faq3"
+              >
+                <h4>
+                  Não sei por onde começar na academia. Vou conseguir fazer?
+                </h4>
+                <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              </button>
+              <div id="faq3" class="accordion-body" role="region">
+                <p>
+                  Com certeza. O aplicativo conta com vídeos detalhados de cada
+                  exercício, mostrando a execução perfeita. Além disso, você
+                  pode me enviar vídeos da sua execução para correção.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10. CTA FINAL & 11. CONTATO -->
+      <section id="contato" class="cta-final section-padding">
+        <div class="container grid-2 align-center">
+          <div class="cta-content reveal">
+            <h2 class="hero-title">Sua transformação começa hoje.</h2>
+            <p class="hero-subtitle">
+              Você está a uma decisão de distância do melhor corpo e saúde da
+              sua vida. Preencha o formulário e vamos alinhar seu objetivo.
+            </p>
+            <div class="security-badges">
+              <span
+                ><i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                100% Seguro</span
+              >
+              <span
+                ><i class="fa-solid fa-lock" aria-hidden="true"></i> Dados
+                Protegidos</span
+              >
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper glass reveal reveal-delay-2">
+            <h3>Aplicação para Consultoria</h3>
+            <form id="leadForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="nome">Seu Nome Completo</label>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  placeholder="Ex: João da Silva"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-group">
+                <label for="whatsapp">Seu WhatsApp</label>
+                <input
+                  type="tel"
+                  id="whatsapp"
+                  name="whatsapp"
+                  placeholder="(11) 99999-9999"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-group">
+                <label for="objetivo">Qual seu principal objetivo?</label>
+                <select
+                  id="objetivo"
+                  name="objetivo"
+                  required
+                  aria-required="true"
+                >
+                  <option value="" disabled selected>Selecione...</option>
+                  <option value="emagrecimento">Emagrecimento Rápido</option>
+                  <option value="hipertrofia">Ganho de Massa Muscular</option>
+                  <option value="definicao">Definição Muscular</option>
+                  <option value="saude">Saúde e Condicionamento</option>
+                </select>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary btn-large btn-full mt-3 ripple"
+              >
+                Quero mudar meu corpo agora
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 13. FOOTER -->
+    <footer class="footer">
+      <div class="container grid-3 text-left">
+        <div class="footer-brand">
+          <a href="#hero" class="logo mb-3" aria-label="Início">
+            <span class="logo-icon" aria-hidden="true"
+              ><i class="fa-solid fa-dumbbell"></i
+            ></span>
+            <span class="logo-text">Coach<strong>Premium</strong></span>
+          </a>
+          <p>
+            Transformando vidas através do treinamento de alta performance e
+            metodologias comprovadas cientificamente.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4>Links Úteis</h4>
+          <a href="#hero">Início</a>
+          <a href="#autoridade">Sobre mim</a>
+          <a href="#metodo">Método</a>
+          <a href="#prova-social">Resultados</a>
+          <a href="#faq">Dúvidas</a>
+        </div>
+        <div class="footer-social">
+          <h4>Acompanhe</h4>
+          <div class="social-icons">
+            <a
+              href="#"
+              aria-label="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+            ></a>
+            <a
+              href="#"
+              aria-label="YouTube"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-youtube" aria-hidden="true"></i
+            ></a>
+            <a
+              href="#"
+              aria-label="TikTok"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-tiktok" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2026 Coach Premium. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Botão Scroll to Top -->
+    <button
+      id="scrollTopBtn"
+      class="scroll-top-btn"
+      aria-label="Voltar ao topo"
+    >
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a
+      href="https://wa.me/5511999999999"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="fab-whatsapp"
+      aria-label="Falar conosco no WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    </a>
+
+    <!-- JS Diferido (Performance) -->
+    <script src="assets/js/script.js" defer></script>
+  </body>
+</html>
